@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: 1px solid #d1d1d1;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* Top Blogs Start */
+.blog{
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-info{
+    margin-left: 10px;
+}
+.author-name{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.author-name a{
+    text-decoration: none;
+    color: #562EFF;
+}
